@@ -4,6 +4,6 @@
 3. Send  the confirmation of the user's Hotel reservation
 
 # Classes:
-User
-Hotel
-Ticket Confirmation
+1. User
+2. Hotel
+3. Ticket Confirmation
