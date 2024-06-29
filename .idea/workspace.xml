@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37615f5e-c192-4acb-8fa3-a98da03c8143" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Hotel Reservation Booking Application.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Planning.txt" afterDir="false" />
-    </list>
+    <list default="true" id="37615f5e-c192-4acb-8fa3-a98da03c8143" name="Changes" comment="BLUEPRINTS: Planning and Classes of the Hotel Reservation Booking Application" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -157,6 +152,19 @@
       <option name="presentableId" value="Default" />
       <updated>1719663093009</updated>
     </task>
+    <task id="LOCAL-00001" summary="BLUEPRINTS: Planning and Classes of the Hotel Reservation Booking Application">
+      <option name="closed" value="true" />
+      <created>1719665011023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719665011026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BLUEPRINTS: Planning and Classes of the Hotel Reservation Booking Application" />
+    <option name="LAST_COMMIT_MESSAGE" value="BLUEPRINTS: Planning and Classes of the Hotel Reservation Booking Application" />
   </component>
 </project>
