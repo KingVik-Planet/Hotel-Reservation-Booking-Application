@@ -71,52 +71,58 @@ this allows User to do the following:
 2. Allow users to view their booking history and manage upcoming trips.
 C
 
-# lasses:
-- User
-Attributes: userID, username, password, email, phoneNumber, address, paymentDetails
-Methods: register(), login(), updateProfile(), viewBookingHistory()
-
-- Flight
-
-Attributes: flightID, airline, flightNumber, departure, destination, departureTime, arrivalTime, price, seatAvailability
-Methods: searchFlights(), viewFlightDetails(), selectFlight()
-
-- Booking
-Attributes: bookingID, userID, flightID, passengerDetails, seatSelection, additionalServices, totalPrice, paymentStatus
-Methods: createBooking(), viewBookingSummary(), confirmBooking()
-
-- Payment
-Attributes: paymentID, bookingID, amount, paymentMethod, paymentStatus
-Methods: processPayment(), verifyPayment()
-
-- Ticket Confirmation
-Attributes: ticketID, bookingID, userID, flightDetails, passengerDetails, seatNumber, issueDate
-Methods: generateTicket(), sendConfirmationEmail(), downloadTicket()
+# Classes:
+#### User
+- Attributes: userID, username, password, email, phoneNumber, address, paymentDetails
+- Methods: register(), login(), updateProfile(), viewBookingHistory()
 
 
-##Detailed Class Explanations:
-- User Class
+#### Flight
+- Attributes: flightID, airline, flightNumber, departure, destination, departureTime, arrivalTime, price, seatAvailability
+- Methods: searchFlights(), viewFlightDetails(), selectFlight()
+
+
+#### Booking
+- Attributes: bookingID, userID, flightID, passengerDetails, seatSelection, additionalServices, totalPrice, paymentStatus
+- Methods: createBooking(), viewBookingSummary(), confirmBooking()
+
+
+#### Payment
+- Attributes: paymentID, bookingID, amount, paymentMethod, paymentStatus
+- Methods: processPayment(), verifyPayment()
+
+
+#### Ticket Confirmation
+- Attributes: ticketID, bookingID, userID, flightDetails, passengerDetails, seatNumber, issueDate
+- Methods: generateTicket(), sendConfirmationEmail(), downloadTicket()
+
+
+## Detailed Class Explanations:
+### User Class
 
 - register(): Allows a new user to create an account by providing necessary details.
-login(): Authenticates the user based on the username and password.
-updateProfile(): Enables the user to update their personal information.
-viewBookingHistory(): Retrieves and displays the user's past and upcoming bookings.
-Flight Class
+- login(): Authenticates the user based on the username and password.
+- updateProfile(): Enables the user to update their personal information.
+- viewBookingHistory(): Retrieves and displays the user's past and upcoming bookings.
 
-searchFlights(): Searches for available flights based on user input.
-viewFlightDetails(): Displays detailed information about a selected flight.
-selectFlight(): Allows the user to select a flight for booking.
-Booking Class
+### Flight Class
 
-createBooking(): Initiates a new booking by collecting passenger details and selected services.
-viewBookingSummary(): Provides a summary of the booking details for user confirmation.
-confirmBooking(): Finalizes the booking and updates the booking status.
-Payment Class
+ - searchFlights(): Searches for available flights based on user input.
+- viewFlightDetails(): Displays detailed information about a selected flight.
+- selectFlight(): Allows the user to select a flight for booking.
 
-processPayment(): Handles the payment process using the selected payment method.
-verifyPayment(): Verifies the payment status and updates the booking accordingly.
-Ticket Confirmation Class
+### Booking Class
 
-generateTicket(): Generates an e-ticket once the booking is confirmed.
-sendConfirmationEmail(): Sends the booking confirmation and e-ticket to the user's email.
-downloadTicket(): Allows the user to download or print the e-ticket from their account.
+- createBooking(): Initiates a new booking by collecting passenger details and selected services.
+- viewBookingSummary(): Provides a summary of the booking details for user confirmation.
+- confirmBooking(): Finalizes the booking and updates the booking status.
+
+### Payment Class
+
+- processPayment(): Handles the payment process using the selected payment method.
+- verifyPayment(): Verifies the payment status and updates the booking accordingly.
+
+### Ticket Confirmation Class
+- generateTicket(): Generates an e-ticket once the booking is confirmed.
+- sendConfirmationEmail(): Sends the booking confirmation and e-ticket to the user's email.
+- downloadTicket(): Allows the user to download or print the e-ticket from their account.
