@@ -1,4 +1,4 @@
-# Hotel Reservation Booking Application.
+# **Hotel Reservation Booking Application.**
 ![Alt](https://groups360.com/wp-content/uploads/2022/01/groupsync-home-group-travel.jpg) Source :Group360
 
 # Planning
@@ -14,7 +14,7 @@
 
 
 
-# Flight  Booking Application.
+# **Flight  Booking Application.**
 ![Alt](https://cdn.dribbble.com/users/7843013/screenshots/17245752/media/34f43714ccd28bb8beceb6f837d3ff5e.png) Source: UI Zone
 
 ## Planning Summary:
