@@ -31,7 +31,7 @@
 
 
 
-#Planning
+# **Planning**
 ## User Registration and Login;
 this allows User to do the following:
 1. Allow users to create an account or log in if they already have one.
