@@ -7,3 +7,5 @@
 1. User
 2. Hotel
 3. Ticket Confirmation
+4. Rooms (Later update session).
+5. Payment Gateway (Later Update session).
