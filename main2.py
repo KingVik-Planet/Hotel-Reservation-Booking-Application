@@ -78,6 +78,7 @@ Instant Variable
 Class Variable
 
 
+
 () is used to call function
 - Property  of Class works as a variable, it uses @Property
 generate() -Method is inside the class and hidden until it is called
