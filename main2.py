@@ -1,5 +1,6 @@
 #Import pandas
 import pandas as pd
+from abc import ABC, abstractmethod #abc is an abstract class
 
 #Load the datasets
 df = pd.read_csv("hotels.csv", dtype={"id": str})
@@ -37,6 +38,14 @@ class Hotel:
             return False
 
 
+#Abstract Method
+class Ticket(ABC):
+    @abstractmethod
+    def generate(self):
+        pass
+
+
+
 #Create class TicketConfirmation and define the functions
 class TicketConfirmation:
     def __init__(self, customer_name, hotel_name):
@@ -63,8 +72,12 @@ class TicketConfirmation:
     def convert(amount):
         return amount * 1.2
 
-#Magic Method
-
+#Abstract Method
+class DigitalTicket(Ticket):
+    def generate(self):
+        return "Hello this is your computerised ticket"
+    def download(self):
+        pass
 
 
 hotel1 = Hotel(hotel_id="188")
@@ -105,6 +118,8 @@ it used @staticmethod
 _ Magic Method (.__eq__):  for equating when 1 object has 2 ID
 like hotel 1 and hotel has room 188
 
+_Abstract Class: a class that does not create instances but 
+#__exit on imagery but make the code easy understanding
 
 _ () is used to call function
 - Property  of Class works as a variable, it uses @Property
